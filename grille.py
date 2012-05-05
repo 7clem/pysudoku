@@ -7,7 +7,7 @@ class Grille:
     def __str__(self):
         for ligne in range(0, 8):
             for col in range(0, 8):
-                print(self.data[ligne * 9 + col], end='')
+                print(str(self.data[ligne * 9 + col]), end='')
             print "\n"
         
     @staticmethod
